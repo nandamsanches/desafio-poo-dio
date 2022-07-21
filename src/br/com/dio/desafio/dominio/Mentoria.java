@@ -30,4 +30,10 @@ public class Mentoria extends Conteudo{
                 ", data=" + data +
                 '}';
     }
+    
+    @Override
+    public String getTitulo()
+    {
+    	return "Titulo da Mentoria: " + super.getTitulo();
+    }
 }
